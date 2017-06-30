@@ -20,7 +20,9 @@
 \usetheme{metropolis}
 \usecolortheme{owl}
 
-\title{}
+\setbeamertemplate{footline}{}
+
+\title{Unstetigkeitsbeweise mit dem Folgenkriterium (Beweisschema)}
 \date{}
 
 \newcommand*{\N}{\mathbb N}
@@ -35,7 +37,23 @@
   \end{frame}
 
   \begin{frame}
-    \frametitle{}
+    \frametitle{Unstetigkeitsbeweis mit dem Folgenkriterium}
+
+    \uncover<+->{}
+    \uncover<+->{Sei $f: \ldots$ eine Funktion mit $f(x)=\ldots$.}
+    \uncover<+->{Diese Funktion ist unstetig an der Stelle $x_0=\ldots$.}
+    \uncover<+->{Wählen wir nämlich die Folge $(x_n)_{n\in\N}$ mit $x_n=\ldots$, so liegen alle Folgenglieder im Definitionsbereich von $f$, und wir haben}
+
+    \begin{align*}
+      \uncover<+->{\lim_{n\to\infty} x_n = \ldots = x_0}
+    \end{align*}
+
+    \uncover<+->{Jedoch ist $\lim_{n\to\infty} f(x_n) \neq f(x_0)$.}
+    \uncover<+->{Es ist nämlich}
+
+    \begin{align*}
+      \uncover<+->{\text{\emph{Beweis für }} \lim_{n\to\infty} f(x_n) \neq f(x_0)}
+    \end{align*}
   \end{frame}
 
   \begin{frame}
